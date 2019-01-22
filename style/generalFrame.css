@@ -16,7 +16,7 @@ body, html{
     width: 100%;
     min-height: 50px;
     height: 10%;
-    background: #ec6231;
+    background: #29385B;
     display: flex;
     flex-wrap: wrap;
     -webkit-box-shadow: 2px 2px 11px -1px rgba(0,0,0,0.75);
@@ -29,7 +29,7 @@ body, html{
 .marcoencabezadoLateralIzq{
     width: 10%;
     height: 100%;
-    border: 1px solid;
+    /*border: 1px solid;*/
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -39,20 +39,38 @@ body, html{
 .marcoCentral{
     width: 75%;
     height: 100%;
-    border: 1px solid;
+    /*border: 1px solid;*/
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
 }
 
 .marcoencabezadoLateralDer{
     width: 15%;
     height: 100%;
-    border: 1px solid;
+    /*border: 1px solid;*/
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.fas{
+    font-size: 20px;
+    color: #fff;
+}
 
 
+@media screen AND (min-width:701px){
+.menuHamburguesa{
+    display: none;
+}
+}
+
+nav{
+    background: #F8F9FA !important;
+}
 

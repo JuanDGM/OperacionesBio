@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="../style/generalFrame.css">
+        <link rel="stylesheet" href="../style/homeStyle.css">
+        <link rel="stylesheet" href="../library/materialize/css/materialize.min.css">
+        <link rel="stylesheet" href="../library/Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <script src="../library/js/jquery-3.2.1.min.js"></script>
+        <script src="../library/materialize/js/materialize.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="generalFrame">
+            <header class="header">
+                <div class="marcoencabezadoLateralIzq"></div>
+                <div class="marcoCentral">HOME</div>
+                <div class="marcoencabezadoLateralDer">
+                    
+                    <a href="#" data-target="slide-out" class="sidenav-trigger menuHamburguesa"><i class="fas fa-bars"></i></a>
+                </div>
+            </header>
+            
+            
+            
+            <ul id="slide-out" class="sidenav">
+              <li><div class="user-view">
+                  <nav class="nav">
+                <button type="button" class="btn btn-primary"><a href="./comercial/menuComercial.html" style="color: #fff;">COMERCIAL</a></button>
+                <button type="button" class="btn btn-primary">RECOLECCIÓN MUESTRAS</button>
+                <button type="button" class="btn btn-primary">MATRICULA DE MUESTRAS</button>
+                <button type="button" class="btn btn-primary">ASIGNACIÓN TRABAJO</button>
+                <button type="button" class="btn btn-primary">REGISTRAR ANALISIS</button>
+                <button type="button" class="btn btn-primary">APROBAR Y ENVIAR RESULTADOS</button>
+                <button type="button" class="btn btn-primary">INTELIGENCIA DE NEGOCIO</button>
+                <button type="button" class="btn btn-primary">PORTAL DEL CLIENTE</button>
+            </nav>
+              </div></li>
+              
+            </ul>
+            <nav class="nav ocultarEnMovil">
+                <button type="button" class="btn btn-primary"><a href="./comercial/menuComercial.html" style="color: #fff;">COMERCIAL</a></button>
+                <button type="button" class="btn btn-primary">RECOLECCIÓN MUESTRAS</button>
+                <button type="button" class="btn btn-primary">MATRICULA DE MUESTRAS</button>
+                <button type="button" class="btn btn-primary">ASIGNACIÓN TRABAJO</button>
+                <button type="button" class="btn btn-primary">REGISTRAR ANALISIS</button>
+                <button type="button" class="btn btn-primary">APROBAR Y ENVIAR RESULTADOS</button>
+                <button type="button" class="btn btn-primary">INTELIGENCIA DE NEGOCIO</button>
+                <button type="button" class="btn btn-primary">PORTAL DEL CLIENTE</button>
+            </nav>
+            
+            <article></article>
+            
+            <footer></footer>
+            
+            
+        </div>
+        <script>
+             $(document).ready(function(){
+                $('.sidenav').sidenav();
+             });
+        </script>
+    </body>
+</html>
