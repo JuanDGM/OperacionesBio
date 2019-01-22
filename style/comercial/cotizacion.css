@@ -18,6 +18,41 @@
     border-right: 1px solid #ddd;
 }
     
+#btnServiciosOfertados{
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+.ListaServicios{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.nombreEnsayo{
+    width: 50%;
+    font-size: 10px;
+}
+.metodo{
+    width: 50%;
+    font-size: 10px;
+}
+.condiciones{
+    width: 50%;
+    font-size: 10px;
+}
+.precio{
+    width: 25%;
+    font-size: 10px;
+}
+.seleccione{
+    width: 25%;   
+    font-size: 10px;
+}
+
+
 .ocultarEnMovil{
     display: none;
 }
@@ -26,6 +61,22 @@ article{
     width: 95%;
     margin: auto;
     height: 90%;
+}
+
+
+.marcoContenidoPrincipal{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.marcoContenidoservicios{
+    display: block;
 }
 
 footer{
@@ -41,11 +92,56 @@ footer{
     border-right: 1px solid #ddd;
     
 }
-    
+
+#btnServiciosOfertados{
+    width: 200px !important;
+    margin-left: 0px !important;
+}
+
 article{
     width: 80%;
     margin: auto;
     height: 90%;
+}
+
+.marcoContenidoPrincipal{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ListaServicios{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.nombreEnsayo{
+    width: 25%;
+    font-size: 10px;
+}
+.metodo{
+    width: 25%;
+    font-size: 10px;
+}
+.condiciones{
+    width: 25%;
+    font-size: 10px;
+}
+.precio{
+    width: 15%;
+    font-size: 10px;
+}
+.seleccione{
+    width: 10%;   
+    font-size: 10px;
 }
 
 footer{
@@ -62,13 +158,102 @@ footer{
     
 }    
 
-    
+#btnServiciosOfertados{
+    width: 200px !important;
+    margin-left: 0px !important;
+}
+
 article{
     width: 85%;
     height: 80%;
     
 }
 
+.marcoContenidoPrincipal{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ListaServicios{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.nombreEnsayo{
+    width: 25%;
+    font-size: 10px;
+}
+.metodo{
+    width: 25%;
+    font-size: 10px;
+}
+.condiciones{
+    width: 25%;
+    font-size: 10px;
+}
+.precio{
+    width: 15%;
+    font-size: 10px;
+}
+.seleccione{
+    width: 10%;   
+    font-size: 10px;
+}
+
+.nombreEnsayoT{
+    width: 25%;
+    font-size: 10px;
+    text-align: center;
+    background: #e4e4e4;
+    padding: 2px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.metodoT{
+    width: 25%;
+    font-size: 10px;
+    text-align: center;
+    background: #e4e4e4;
+    padding: 2px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.condicionesT{
+    width: 25%;
+    font-size: 10px;
+    text-align: center;
+    background: #e4e4e4;
+    padding: 2px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.precioT{
+    width: 15%;
+    font-size: 10px;
+    text-align: center;
+    background: #e4e4e4;
+    padding: 2px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.seleccioneT{
+    width: 10%;   
+    font-size: 10px;
+    text-align: center;
+    background: #e4e4e4;
+    padding: 2px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
 
 footer{
     bottom: 0;

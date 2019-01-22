@@ -49,7 +49,76 @@
             </nav>
             
             
-            <article></article>
+            <article>
+                
+                <div class="marcoContenidoPrincipal">
+                    
+                    <p>1. Cliente nuevo</p>
+                    
+                    <p>2. Servicios requeridos</p>
+                    
+                    <div class="form-group">
+                        <label>SECTOR</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Alimentos procesados</option>
+                          <option>Cosmeticos</option>
+                          <option>Farmaceuticos</option>
+                          <option>Aguas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>MATRIZ</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Harinas</option>
+                          <option>Carnes</option>
+                          <option>Cereales</option>
+                          <option>Aguas potables</option>
+                        </select>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary" id="btnServiciosOfertados">SERVICIOS OFERTADOS</button>   
+            
+                    <br/>
+                    <br/>
+                    
+                    <div class="marcoContenidoservicios" style="display: none;">
+                        
+                        <p>LABORATORIO MICROBIOLOGÍA</p>
+                        <br/>
+                        <div class="ListaServicios">
+                            <div class="nombreEnsayoT">ENSAYO</div>
+                            <div class="metodoT">METODO</div>
+                            <div class="condicionesT">CONDICIONES</div>
+                            <div class="precioT">PRECIO</div>
+                            <div class="seleccioneT">SELECCIONE</div>
+                            <div class="nombreEnsayo">MOHOS Y LEVADURAS</div>
+                            <div class="metodo">INVIMA</div>
+                            <div class="condiciones">5 DIAS RESULTADOS</div>
+                            <div class="precio">$ 56.300</div>
+                            <div class="seleccione">
+                                <input type="checkbox">
+                            </div>
+                            <div class="nombreEnsayo">COLIFORMES TOTALES</div>
+                            <div class="metodo">ISO 774</div>
+                            <div class="condiciones">5 DIAS RESULTADOS</div>
+                            <div class="precio">$47.000</div>
+                            <div class="seleccione"></div>
+                            <div class="nombreEnsayo">LISTERIA</div>
+                            <div class="metodo">ISO 18034</div>
+                            <div class="condiciones">3 DIAS</div>
+                            <div class="precio">$94.000</div>
+                            <div class="seleccione"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+                
+            </article>
             
             <footer></footer>
             
@@ -58,6 +127,16 @@
         <script>
              $(document).ready(function(){
                 $('.sidenav').sidenav();
+                
+                
+                
+                $("#btnServiciosOfertados").click(function(){
+                    
+                    $(".marcoContenidoservicios").show();
+                    
+                });
+                
+                
              });
         </script>
     </body>
